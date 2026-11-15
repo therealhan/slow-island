@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f5f0e6">
+  <title>佈置小島｜慢慢小島</title><link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-base-path="../" data-page="island">
+  <header class="site-header">
+    <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">✿</span><span>慢慢小島</span></a>
+    <nav class="site-nav" aria-label="主要導覽"><a href="../index.html">小島首頁</a><a href="tasks.html">每日任務</a><a class="active" href="island.html">佈置小島</a><a href="collection.html">收藏圖鑑</a><a href="progress.html">成長紀錄</a></nav>
+    <div class="currency-bar"><span class="currency-pill"><span class="currency-star" aria-hidden="true">★</span><b data-currency="stars">0</b></span><span class="currency-pill"><span class="currency-shell" aria-hidden="true">◒</span><b data-currency="shells">0</b></span></div>
+  </header>
+  <main class="page-shell inner-page">
+    <section class="page-intro">
+      <p class="eyebrow"><span class="eyebrow-dot"></span> 把喜歡的風景，放進小島裡</p><h1>佈置小島 <span class="title-sparkle">✦</span></h1>
+      <p>用完成任務得到的星星換一件裝飾，再把它放到島上喜歡的位置。</p>
+    </section>
+    <section class="island-page-scene paper-card">
+      <div class="island-page-heading"><div><p class="eyebrow">你的專屬小天地</p><h2>海風裡的小島</h2></div><span class="placed-count"><span data-placed-count>0</span> 件裝飾在島上</span></div>
+      <div class="island-scene island-scene-large" data-island-scene>
+        <img class="scene-art" src="../assets/images/island/island-scene.svg" alt="有小屋、樹木與花朵的漂浮小島">
+        <img class="scene-character" src="../assets/images/characters/island-cat.svg" alt="坐在草地上的小島貓咪">
+        <div class="placed-decorations" data-placed-decorations aria-label="已放置的島嶼裝飾"></div>
+      </div>
+    </section>
+    <section class="shop-section">
+      <div class="section-title-row"><div><p class="eyebrow">慢慢挑選</p><h2>島上的新朋友</h2></div><a class="text-link" href="collection.html">看看全部收藏 →</a></div>
+      <div class="shop-grid" data-shop-grid></div>
+    </section>
+    <p class="status-message" data-island-message role="status" aria-live="polite"></p>
+  </main>
+  <footer class="site-footer"><span>慢慢小島</span><span>一點一點，變成喜歡的模樣。</span></footer>
+  <script src="../data/tasks.js"></script><script src="../data/items.js"></script><script src="../data/achievements.js"></script><script src="../assets/js/storage.js"></script><script src="../assets/js/main.js"></script><script src="../assets/js/island.js"></script>
+</body>
+</html>

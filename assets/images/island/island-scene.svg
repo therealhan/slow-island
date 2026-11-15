@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+  <title id="title">漂浮在海上的療癒小島</title>
+  <desc id="desc">柔和藍綠天空與海面之間，有草地、木屋、樹木、花朵、石頭和一條蜿蜒小路。</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dcebe2"/><stop offset="1" stop-color="#c5ddda"/></linearGradient>
+    <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#a8cfca"/><stop offset="1" stop-color="#88b9b5"/></linearGradient>
+    <linearGradient id="island" x2="0" y2="1"><stop stop-color="#a9bb7c"/><stop offset="1" stop-color="#718c5e"/></linearGradient>
+    <linearGradient id="path" x2="0" y2="1"><stop stop-color="#e8d7b4"/><stop offset="1" stop-color="#c9b58e"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect width="1200" height="480" fill="url(#sky)"/>
+  <circle cx="969" cy="85" r="36" fill="#f7e8ba" opacity=".8"/>
+  <g fill="#fffdf3" opacity=".63">
+    <ellipse cx="198" cy="93" rx="66" ry="17"/><ellipse cx="229" cy="82" rx="31" ry="24"/><ellipse cx="165" cy="84" rx="24" ry="19"/>
+    <ellipse cx="786" cy="121" rx="52" ry="13"/><ellipse cx="809" cy="112" rx="25" ry="19"/><ellipse cx="758" cy="114" rx="20" ry="15"/>
+  </g>
+  <path d="M0 266c118-23 217-17 329 2 122 22 230 20 359-1 178-29 346-15 512 17v196H0z" fill="url(#sea)"/>
+  <g fill="none" stroke="#edf5e6" stroke-linecap="round" opacity=".62">
+    <path d="M52 339c65-12 103-10 164-1m679 6c78-12 151-7 218 6M167 411c70-8 119-5 179 3m502-35c43-9 101-7 148 2" stroke-width="4"/>
+    <path d="M333 307c31-5 53-4 82 1m484 99c34-5 65-3 93 3M41 376c28-4 54-3 75 2" stroke-width="2"/>
+  </g>
+  <ellipse cx="601" cy="367" rx="360" ry="84" fill="#607d68" opacity=".22" filter="url(#soft)"/>
+  <path d="M202 309c33-66 128-106 224-107 60-61 155-74 224-33 86-47 194-26 236 39 100 8 177 56 186 112-27 53-109 80-211 82-151 30-439 25-564 0-84-5-142-37-155-93z" fill="#667d5a"/>
+  <path d="M210 296c37-64 125-97 221-96 66-59 155-71 223-31 81-43 186-24 229 40 95 8 166 53 180 104-31 48-110 71-204 73-147 29-423 23-547 0-81-6-137-34-152-90z" fill="url(#island)"/>
+  <path d="M501 381c-33-30-54-56-35-79 18-21 72-26 75-51 2-17-21-26-33-39 34 8 65 21 67 42 3 28-48 38-42 61 5 18 42 25 64 66z" fill="url(#path)" opacity=".92"/>
+  <path d="M496 371c-14-18-26-34-17-47m55-80c16 9 23 19 20 29m19 51c18 9 32 19 37 32" fill="none" stroke="#f3e7cb" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <g stroke="#667a54" stroke-width="3" stroke-linejoin="round">
+    <path d="M354 270c-4-42 1-77 9-113h19c8 37 10 76 5 113z" fill="#8b684d"/>
+    <path d="M333 166c-30-4-36-41-8-51-13-33 27-54 49-31 25-24 63-4 54 28 31 12 23 52-6 55-17 25-76 25-89-1z" fill="#72925c"/>
+    <path d="M337 136c6-23 28-28 43-16m-28 31c18-14 40-12 55 2m-30-59c12 6 18 18 15 31" fill="none" stroke="#9db478" stroke-width="5" stroke-linecap="round"/>
+    <path d="M807 282c-4-37 0-68 7-99h16c7 32 9 66 4 99z" fill="#8b684d"/>
+    <path d="M785 194c-27-4-32-37-7-46-11-29 23-47 42-27 22-21 55-3 47 24 27 11 21 47-5 49-14 22-67 22-77 0z" fill="#698857"/>
+    <path d="M796 168c7-18 25-23 39-12m-27 27c16-12 34-10 48 2m-27-48c11 5 16 15 14 26" fill="none" stroke="#9ab174" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g stroke="#82644d" stroke-width="3" stroke-linejoin="round">
+    <path d="M576 261v-61l52-40 54 40v64z" fill="#c9956f"/>
+    <path d="M566 202l62-51 63 51" fill="#87684f"/>
+    <path d="M616 260v-37c0-15 24-15 24 0v37" fill="#78624c"/>
+    <rect x="585" y="207" width="19" height="19" rx="3" fill="#f4dfaa"/>
+    <path d="M585 216h19m-9-9v19" stroke="#927459" stroke-width="2"/>
+    <rect x="655" y="207" width="19" height="19" rx="3" fill="#f4dfaa"/>
+    <path d="M655 216h19m-9-9v19" stroke="#927459" stroke-width="2"/>
+    <path d="M621 157l7-21 8 21" fill="#b5a078"/>
+  </g>
+  <g fill="#f3e8c5" opacity=".95">
+    <circle cx="474" cy="264" r="6"/><circle cx="493" cy="281" r="4"/><circle cx="728" cy="280" r="7"/><circle cx="747" cy="268" r="4"/>
+    <circle cx="275" cy="294" r="5"/><circle cx="881" cy="293" r="5"/><circle cx="409" cy="312" r="4"/>
+  </g>
+  <g stroke="#698154" stroke-width="2" fill="#f4e6af">
+    <path d="M283 305v-17m-7 7 7-7 7 7"/><circle cx="283" cy="284" r="5" fill="#fff5d5"/>
+    <path d="M757 313v-16m-7 7 7-7 7 7"/><circle cx="757" cy="293" r="5" fill="#f1c7c2"/>
+    <path d="M865 317v-16m-7 7 7-7 7 7"/><circle cx="865" cy="297" r="5" fill="#fff2c6"/>
+  </g>
+  <g fill="#d0c3a2" stroke="#8c9a6e" stroke-width="2">
+    <ellipse cx="456" cy="334" rx="15" ry="8"/><ellipse cx="775" cy="340" rx="17" ry="9"/><ellipse cx="526" cy="298" rx="10" ry="6"/>
+  </g>
+  <g fill="#fffdf2" opacity=".8">
+    <path d="M71 178c12-14 24 8 37-3m802 64c12-15 26 9 40-2m156-88c10-11 20 7 31-2"/>
+  </g>
+</svg>
